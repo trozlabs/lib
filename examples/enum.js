@@ -14,14 +14,14 @@ console.log(PubSubService.JABBER)
 console.log(PubSubService.GOOGLE)
 console.log(PubSubService.key('GOOGLE'))
 
-const Day1 = new Enum({
-    SUNDAY   : 1, SUN: 1,
-    MONDAY   : 2, MON: 2,
-    TUESDAY  : 3, TUE: 3,
-    WEDNESDAY: 4, WED: 4,
-    THURSDAY : 5, THU: 5,
-    FRIDAY   : 6, FRI: 6,
-    SATURDAY : 7, SAT: 7,
+const Day = new Enum({
+    SUNDAY   : 1,
+    MONDAY   : 2,
+    TUESDAY  : 3,
+    WEDNESDAY: 4,
+    THURSDAY : 5,
+    FRIDAY   : 6,
+    SATURDAY : 7,
 });
 
 console.log('\nDay --------------------')
@@ -47,3 +47,5 @@ const Role = new Enum({
 console.log('\nRole --------------------')
 console.log(`Role('ADMIN')`, Role('ADMIN'))
 console.log(`Role.ADMIN`, Role.ADMIN)
+
+process.exit(0)

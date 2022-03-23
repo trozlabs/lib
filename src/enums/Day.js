@@ -1,3 +1,5 @@
+const Enum = require('../Enum');
+
 module.exports = new Enum({
     SUNDAY   : 1,
     MONDAY   : 2,
