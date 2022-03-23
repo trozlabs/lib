@@ -2,5 +2,6 @@
 
 A Collection of General Purpose Javascript
 
+    npm i @trozlabs/lib
 
-- Enum
+    const lib = require('@trozlabs/lib')

@@ -22,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/trozlabs/lib/issues"
   },
-  "homepage": "https://github.com/trozlabs/lib#readme",
-  "workspaces": [
-    "@trozlabs/core"
-  ]
+  "homepage": "https://github.com/trozlabs/lib#readme"
 }
