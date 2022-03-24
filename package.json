@@ -1,14 +1,9 @@
 {
   "name": "@trozlabs/lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Collection of General Purpose Javascript",
   "main": "src/index.js",
   "bin": "bin/index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "test",
-    "examples": "examples"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "nodemon --inspect examples/index.js"
