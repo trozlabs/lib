@@ -6,7 +6,7 @@
   "bin": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "nodemon --inspect examples/index.js"
+    "develop": "nodemon --inspect test/index.js"
   },
   "repository": {
     "type": "git",
